@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de carrinho</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <div class="carrinho">
+        <span id="quantidades"></span><img src="./carrinho.svg" alt="">
+    </div>
+    <h1>Sistema de carrinho de compras</h1>
+
+
+    <div class="produto">
+        <div id="conteudos">
+            <img src="./produto.webp" alt="">
+            <p>Notebook</p>
+            <div>
+                <button id="addCart">Adicionar ao carrinho</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="fade"></div>
+    <div id="modalCarrinho">
+        <p>Carrinho de compras</p>
+        <img src="./produto.webp" alt="" style="width: 100px;">
+        <p>Nome: Notebook</p>
+        <p>Quantidade: <span id="quantidade"></span></p>
+        <button id="confirmarPedido">Confirmar</button><button id="cancelar">Cancelar</button>
+    </div>
+</body>
+
+</html>
